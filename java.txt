@@ -1,0 +1,310 @@
+package org.demo;
+import java.util.Scanner;
+public class Practice {
+	public static void main(String[] args) {
+
+//Spy No
+	    /* 
+		   int a=1124,sum=0,mul=1,rem;
+		   while(a>0) {
+		   rem = a%10;
+		   sum = sum+rem;
+		   mul = mul*rem;
+		   a=a/10;
+		   }
+		   if(sum==mul)
+			   System.out.println("Spy No.");
+		   else
+			   System.out.println("Not a Spy No.");
+		*/
+		
+// Neon No
+		
+		/*
+		   int i=10,mul,rem,sum=0;
+		   mul=i*i;
+		   while(mul>0) {
+		   rem=mul%10;
+		   sum=sum+rem;
+		   mul=mul/10;
+		   }
+           if(i==sum)
+        	System.out.println("Neon No.");
+           else
+        	System.out.println("Not a Neon No.");
+	    */
+		
+// Swap without 3rd variable
+		/*
+		
+		int a=10, b=20;
+		a=a+b;
+		b=a-b;
+		a=a-b;
+		System.out.println("a=" +a);
+		System.out.println("b=" +b);
+		
+		*/
+		
+// Strong No
+		
+				/* 
+			 
+			       int i=145,a=i,sum=0,rem;
+				   while(i>0) {
+				   int mul=1;
+				   rem=i%10;
+				   for(int b=1;b<=rem;b++) {
+				   mul=mul*b;
+				   }
+				   sum=sum+mul;
+				    i=i/10;
+		           }
+                  if(a==sum)
+                       System.out.println("Strong No.");
+                  else 
+                	   System.out.println("Not a Strong No.");
+				 */
+             
+            
+// Prime No.
+	/*	
+		int n=7, i;
+		for(i=2;i<n;i++)
+		{
+			if(n%i==0) {
+				break;
+			}
+		}
+		if(i==n) 
+			System.out.println("Prime");
+		
+		else 
+			
+			System.out.println("Not a Prime");
+	*/
+
+// Print Prime no 1 to 50
+	/*
+		
+		int i,j;
+		for (i=2;i<=50;i++) {
+			for (j=2;j<i;j++) {
+				if(i%j==0) {
+					break;
+				}
+				}
+				if(i==j)
+					System.out.println(i);
+			}
+			*/
+		
+// even or odd
+				/* Scanner s = new Scanner(System.in);
+				System.out.println("Enter the value of a :");
+				int a = s.nextInt();
+				if(a%2==0)
+					System.out.println("Given num is Even");
+				else
+					System.out.println("Given num is Odd");
+					*/
+
+// age
+				/* Scanner s1 = new Scanner(System.in);
+				System.out.println("Enter the value of a :");
+				int a = s1.nextInt();
+				if(a<18)
+					System.out.println("You are Minor");
+				else
+					System.out.println("You are an Adult");
+				*/
+
+// leap year
+				/* Scanner s2 = new Scanner(System.in);
+				System.out.println("Enter the value of a :");
+				int a = s2.nextInt();
+				if(a%4==0)
+					System.out.println("The given year is Leap year");
+				else
+					System.out.println("The given year is not a Leap year");
+				*/
+
+// greater than
+				/* Scanner s3 = new Scanner(System.in);
+				System.out.println("Enter the value a :");
+				int a = s3.nextInt();
+				System.out.println("Enter the value of b :");
+				int b = s3.nextInt();
+				if(a>b)
+					System.out.println("Greate num is: "+a);
+				else
+					System.out.println("Greater num is : "+b);
+				*/
+				
+// Vowel or a consonant	
+				/* Scanner s4 = new Scanner(System.in);
+				System.out.println("Enter the value a :");
+				char a = s4.next().charAt(0);
+				if(a=='a' || a=='e' || a=='i' || a=='o' || a=='u' )
+					System.out.println("Entered value is Vowel");
+				else
+					System.out.println("Entered value is consonant");
+				*/
+				
+// Positive, negative, or zero
+				/* Scanner s5 = new Scanner(System.in);
+				System.out.println("Enter the value a : ");
+				int a = s5.nextInt();
+				if(a>0)
+					System.out.println("Entered value is positive integer");
+				else if(a==0)
+					System.out.println("Entered value is zero");
+				else
+					System.out.println("Entered value is negative integer");
+					*/
+
+// Largest of the three		
+				/* Scanner s6 = new Scanner(System.in);
+				System.out.println("Enter the value a : ");
+				int a = s6.nextInt();
+				System.out.println("Enter the value b : ");
+				int b = s6.nextInt();
+				System.out.println("Enter the value c : ");
+				int c = s6.nextInt();
+				if(a>b && a>c)
+					System.out.println("A is greater");
+				else if(b>c)
+					System.out.println("B is greater");
+				else
+					System.out.println("C is greater");
+				*/
+				
+// Prime or not	
+				/* Scanner s7 = new Scanner(System.in);
+				System.out.println("Enter the value a : ");
+				int a = s7.nextInt();
+				int b;
+				for(b=2;b<=a;b++) {
+					if(a%b==0) {
+						break;
+					}}
+					if(a==b)
+						System.out.println("Entered num is prime");
+					else
+						System.out.println("Entered num is not prime"); 
+				*/
+				
+				
+// Grade
+				/* Scanner s8 = new Scanner(System.in);
+				System.out.println("Enter the value a : ");
+				int a = s8.nextInt();
+				if(a>=90)
+					System.out.println("A grade");
+				else if(a>=80 && a<=89)
+					System.out.println("B grade");
+				else if(a>=70 && a<=79)
+					System.out.println("C grade");
+				else if(a>=60 && a<=69)
+					System.out.println("D grade");
+				else
+					System.out.println("F grade");
+				 */
+				
+// palindrome number
+				/*Scanner s9 = new Scanner(System.in);
+				System.out.println("Enter the value a : ");
+				int a = s9.nextInt();
+				int temp=a,rem,rev=0;
+				while(a>0) {
+		            rem=a%10;
+					rev=rev*10+rem;
+					a=a/10;
+				}
+		        if(temp==rev)
+		        	System.out.println("palindrome");
+		        else
+		        	System.out.println("Not a palindrome");
+		        */
+		        
+				
+// Amstrong number
+				/* Scanner s10 = new Scanner(System.in);
+				System.out.println("Enter the value a : ");
+				int a = s10.nextInt();
+				int temp=a,rem,cube,sum=0;
+				while (a>0) {
+					rem=a%10;
+					cube=rem*rem*rem;
+					sum=sum+cube;
+					a=a/10;
+				}
+				if(temp==sum)
+					System.out.println("Amstrong num");
+				else
+					System.out.println("Not an Armstrong num");
+				*/
+				
+// Print ascii values of alphabets
+				        /*  for(int i='a';i<='z';i++) 
+					        System.out.println(i);
+					    */
+				
+				    
+// Print alphabets values of ascii
+					   /* for(char i=97;i<=122;i++)
+			              System.out.println(i);
+			           */
+// Print last 5 digits of 100 in ascending
+				
+				/* Scanner s = new Scanner(System.in);
+				System.out.println("Enter the value a :");
+				int a = s.nextInt();
+				for(int i=a;i>=0;i--) {
+					int b=100-i+1;
+					if(b<=100)
+					System.out.println(b);
+		          }
+		          */
+		
+// Perfect No
+		/*
+		int i=1, a=6, sum=0;		
+		while(i<=a/2) {
+			if(a%i==0) {
+				sum=sum+i;
+			}
+			i++;
+		}
+		if(a==sum)
+			System.out.println("Perfect number");
+		else
+			System.out.println("Not a perfect number");
+		*/
+		
+// Pattern
+		
+				/*
+				    for(int i=1; i<=5; i++) {
+					if(i==4) {                         0/p: 1
+						continue;                           22
+					}                                       333
+					for(int j=1; j<=i; j++) {               55555
+						System.out.print(i);
+					}
+					System.out.println();
+				}
+				*/
+
+		
+}		
+}
+
+	
+	
+	
+	
+
+	
+
+	
